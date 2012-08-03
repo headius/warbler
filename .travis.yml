@@ -6,7 +6,7 @@ rvm:
   # seems to overflow when gems are loaded (does not happen locally :() :
   # SystemStackError: stack level too deep
   # ./spec/../lib/warbler/traits/bundler.rb:30:in `after_configure'
-  - jruby-19mode
+  - jruby-head
 branches:
   only:
     - master
